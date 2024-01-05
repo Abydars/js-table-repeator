@@ -17,7 +17,7 @@ $.fn.Crud = function(config) {
 				
 				t.drawData();
 			},
-			repairData: function() {Array
+			repairData: function() {
 				var t = this;
 				
 				t.data = t.data.filter(a => a != "");
